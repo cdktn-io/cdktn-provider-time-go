@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		reflect.TypeOf((*Sleep)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-time.sleep.SleepConfig",
+		"@cdktn/provider-time.sleep.SleepConfig",
 		reflect.TypeOf((*SleepConfig)(nil)).Elem(),
 	)
 }

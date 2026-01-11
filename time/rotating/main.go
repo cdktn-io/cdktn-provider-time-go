@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		reflect.TypeOf((*Rotating)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-time.rotating.RotatingConfig",
+		"@cdktn/provider-time.rotating.RotatingConfig",
 		reflect.TypeOf((*RotatingConfig)(nil)).Elem(),
 	)
 }

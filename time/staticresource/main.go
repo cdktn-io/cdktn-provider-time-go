@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-time.staticResource.StaticResource",
+		"@cdktn/provider-time.staticResource.StaticResource",
 		reflect.TypeOf((*StaticResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-time.staticResource.StaticResourceConfig",
+		"@cdktn/provider-time.staticResource.StaticResourceConfig",
 		reflect.TypeOf((*StaticResourceConfig)(nil)).Elem(),
 	)
 }

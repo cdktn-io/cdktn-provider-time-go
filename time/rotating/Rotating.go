@@ -5,10 +5,10 @@ package rotating
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-time-go/time/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-time-go/time/v11/rotating/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v11/rotating/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -576,7 +576,7 @@ func NewRotating(scope constructs.Construct, id *string, config *RotatingConfig)
 	j := jsiiProxy_Rotating{}
 
 	_jsii_.Create(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -589,7 +589,7 @@ func NewRotating_Override(r Rotating, scope constructs.Construct, id *string, co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -761,7 +761,7 @@ func Rotating_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -796,7 +796,7 @@ func Rotating_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func Rotating_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -834,7 +834,7 @@ func Rotating_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func Rotating_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-time.rotating.Rotating",
+		"@cdktn/provider-time.rotating.Rotating",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-time.provider.TimeProvider",
+		"@cdktn/provider-time.provider.TimeProvider",
 		reflect.TypeOf((*TimeProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -44,7 +44,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-time.provider.TimeProviderConfig",
+		"@cdktn/provider-time.provider.TimeProviderConfig",
 		reflect.TypeOf((*TimeProviderConfig)(nil)).Elem(),
 	)
 }

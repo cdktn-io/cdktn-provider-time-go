@@ -5,10 +5,10 @@ package sleep
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-time-go/time/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-time-go/time/v11/sleep/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v11/sleep/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -379,7 +379,7 @@ func NewSleep(scope constructs.Construct, id *string, config *SleepConfig) Sleep
 	j := jsiiProxy_Sleep{}
 
 	_jsii_.Create(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -392,7 +392,7 @@ func NewSleep_Override(s Sleep, scope constructs.Construct, id *string, config *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -509,7 +509,7 @@ func Sleep_GenerateConfigForImport(scope constructs.Construct, importToId *strin
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -544,7 +544,7 @@ func Sleep_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func Sleep_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func Sleep_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func Sleep_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-time.sleep.Sleep",
+		"@cdktn/provider-time.sleep.Sleep",
 		"tfResourceType",
 		&returns,
 	)

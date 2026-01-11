@@ -5,10 +5,10 @@ package offset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-time-go/time/v11/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v11/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-time-go/time/v11/offset/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v11/offset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -587,7 +587,7 @@ func NewOffset(scope constructs.Construct, id *string, config *OffsetConfig) Off
 	j := jsiiProxy_Offset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -600,7 +600,7 @@ func NewOffset_Override(o Offset, scope constructs.Construct, id *string, config
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -772,7 +772,7 @@ func Offset_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -807,7 +807,7 @@ func Offset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func Offset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -845,7 +845,7 @@ func Offset_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -858,7 +858,7 @@ func Offset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-time.offset.Offset",
+		"@cdktn/provider-time.offset.Offset",
 		reflect.TypeOf((*Offset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-time.offset.OffsetConfig",
+		"@cdktn/provider-time.offset.OffsetConfig",
 		reflect.TypeOf((*OffsetConfig)(nil)).Elem(),
 	)
 }
