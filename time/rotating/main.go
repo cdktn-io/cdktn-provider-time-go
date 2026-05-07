@@ -86,6 +86,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggers", GoGetter: "Triggers"},
 			_jsii_.MemberProperty{JsiiProperty: "triggersInput", GoGetter: "TriggersInput"},
 			_jsii_.MemberProperty{JsiiProperty: "unix", GoGetter: "Unix"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "year", GoGetter: "Year"},
 		},
 		func() interface{} {
