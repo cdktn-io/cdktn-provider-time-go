@@ -1,6 +1,6 @@
-# CDKTN Go bindings for hashicorp/time provider version 0.13.1
+# CDKTN Go bindings for hashicorp/time provider version 0.14.0
 
-This repo builds and publishes the [Terraform time provider](https://registry.terraform.io/providers/hashicorp/time/0.13.1/docs) bindings for [CDK Terrain](https://cdktn.io).
+This repo builds and publishes the [Terraform time provider](https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs) bindings for [CDK Terrain](https://cdktn.io).
 
 ## Go Package
 
@@ -23,7 +23,7 @@ This project is explicitly not tracking the Terraform time provider version 1:1.
 These are the upstream dependencies:
 
 * [CDK Terrain](https://cdktn.io) - Last official release
-* [Terraform time provider](https://registry.terraform.io/providers/hashicorp/time/0.13.1)
+* [Terraform time provider](https://registry.terraform.io/providers/hashicorp/time/0.14.0)
 * [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
