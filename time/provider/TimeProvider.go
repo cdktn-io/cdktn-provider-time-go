@@ -5,10 +5,11 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-time-go/time/v13/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v14/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -26,6 +27,8 @@ type TimeProvider interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	// Provider-defined functions of the time provider.
+	Functions() providerfunctions.TimeProviderFunctions
 	// Experimental.
 	MetaAttributes() *map[string]interface{}
 	// The tree node.
@@ -43,6 +46,19 @@ type TimeProvider interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAlias()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -129,6 +145,16 @@ func (j *jsiiProxy_TimeProvider) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TimeProvider) Functions() providerfunctions.TimeProviderFunctions {
+	var returns providerfunctions.TimeProviderFunctions
+	_jsii_.Get(
+		j,
+		"functions",
 		&returns,
 	)
 	return returns
@@ -354,6 +380,17 @@ func (t *jsiiProxy_TimeProvider) OverrideLogicalId(newLogicalId *string) {
 		t,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (t *jsiiProxy_TimeProvider) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := t.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 
