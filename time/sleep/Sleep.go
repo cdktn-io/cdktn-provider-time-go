@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/sleep time_sleep}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/sleep time_sleep}.
 type Sleep interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_Sleep) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/sleep time_sleep} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/sleep time_sleep} Resource.
 func NewSleep(scope constructs.Construct, id *string, config *SleepConfig) Sleep {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewSleep(scope constructs.Construct, id *string, config *SleepConfig) Sleep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/sleep time_sleep} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/sleep time_sleep} Resource.
 func NewSleep_Override(s Sleep, scope constructs.Construct, id *string, config *SleepConfig) {
 	_init_.Initialize()
 

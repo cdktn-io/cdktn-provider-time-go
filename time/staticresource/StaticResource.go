@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/static time_static}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/static time_static}.
 type StaticResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -480,7 +480,7 @@ func (j *jsiiProxy_StaticResource) Year() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/static time_static} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/static time_static} Resource.
 func NewStaticResource(scope constructs.Construct, id *string, config *StaticResourceConfig) StaticResource {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewStaticResource(scope constructs.Construct, id *string, config *StaticRes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.0/docs/resources/static time_static} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/time/0.14.1/docs/resources/static time_static} Resource.
 func NewStaticResource_Override(s StaticResource, scope constructs.Construct, id *string, config *StaticResourceConfig) {
 	_init_.Initialize()
 
