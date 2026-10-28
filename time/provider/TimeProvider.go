@@ -5,11 +5,11 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-time-go/time/v14/provider/internal"
-	"github.com/cdktn-io/cdktn-provider-time-go/time/v14/providerfunctions"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v15/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v15/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

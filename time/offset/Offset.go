@@ -5,10 +5,10 @@ package offset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-time-go/time/v14/offset/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v15/offset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

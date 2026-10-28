@@ -5,10 +5,10 @@ package sleep
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-time-go/time/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-time-go/time/v14/sleep/internal"
+	"github.com/cdktn-io/cdktn-provider-time-go/time/v15/sleep/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
